@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>ModerlViewerを使ったWebARページ</title>
+  </head>
+  <body>
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"
+    ></script>
+
+    <model-viewer
+      ar
+      alt="testmodel"
+      src="https://github.com/shiratori00/Haihu/releases/download/test_release1/panda.gltf"
+      ios-src="https://github.com/shiratori00/Haihu/releases/download/test_release1/panda.gltf"
+      style="width:800px;height:1000px;"
+      background-color="#70BCD1"
+      shadow-intensity="0.7"
+      camera-controls
+      interaction-prompt="auto"
+      auto-rotate
+      magic-leap
+    >
+    </model-viewer>
+  </body>
+</html>
